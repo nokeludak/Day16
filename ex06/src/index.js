@@ -1,14 +1,8 @@
 const firstName = (firstName) => {
-  firstName = "FIRSTNAME";
-  return firstName;
+  return firstName.toUpperCase();
 };
-
 const lastName = (lastName) => {
-  lastName = "lastname";
-  return lastName;
-};
-
-console.log(firstName());
-console.log(lastName());
+  return lastName.toLowerCase();
+}
 exports.firstName = firstName;
 exports.lastName = lastName;
